@@ -2,6 +2,7 @@ provider "aws"{
 	region = "us-east-1"
 }
 resource "aws_s3_bucket" "s3_bucket"{
-	bucket = "ss3-bukcet1"
+	bucket = "ss3-bukcet1" 
+	force_destroy= true
 }
 
